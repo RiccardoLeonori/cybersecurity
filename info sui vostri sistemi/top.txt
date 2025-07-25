@@ -1,0 +1,42 @@
+Tasks: 304 total,   1 running, 303 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1,9 us,  0,3 sy,  0,0 ni, 97,7 id,  0,1 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :  15994,0 total,   8807,7 free,   2946,1 used,   4240,2 buff/cache
+MiB Swap:      0,0 total,      0,0 free,      0,0 used.  12524,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                        
+   1928 its       20   0 5411420 426564 182952 S  12,0   2,6  11:17.04 gnome-shell                                                                                    
+  25077 xrdp      20   0   51592  33240  10624 S   6,3   0,2   2:15.64 xrdp                                                                                           
+   1661 its       20   0  494776 244124 138240 S   2,7   1,5   2:51.35 Xorg                                                                                           
+   5458 its       20   0 1215092 101640  50956 S   1,0   0,6   0:32.64 x-terminal-emul                                                                                
+   1264 root      20   0 1238360  16092  10240 S   0,7   0,1   0:05.39 containerd-shim                                                                                
+  28034 its       20   0   13744   4608   3712 R   0,7   0,0   0:00.02 top                                                                                            
+   1266 root      20   0 1238360  17844  10368 S   0,3   0,1   0:05.35 containerd-shim                                                                                
+      1 root      20   0  167040  11624   8168 S   0,0   0,1   0:00.97 systemd                                                                                        
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                                                                       
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_workqueue_release                                                                         
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_g                                                                                
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_p                                                                                
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-slub_                                                                                
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-netns                                                                                
+      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                                                                    
+     12 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mm_pe                                                                                
+     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread                                                                         
+     14 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread                                                                        
+     15 root      20   0       0      0      0 S   0,0   0,0   0:00.10 ksoftirqd/0                                                                                    
+     16 root      20   0       0      0      0 I   0,0   0,0   0:07.48 rcu_sched                                                                                      
+     17 root      rt   0       0      0      0 S   0,0   0,0   0:00.14 migration/0                                                                                    
+     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                                                                  
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                                                                        
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                                                                        
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                                                                  
+     22 root      rt   0       0      0      0 S   0,0   0,0   0:00.19 migration/2                                                                                    
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.10 ksoftirqd/2                                                                                    
+     25 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                                                                    
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/4                                                                                        
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/4                                                                                  
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.17 migration/4                                                                                    
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.06 ksoftirqd/4                                                                                    
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0H-events_highpri                                                                    
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/6                                                                                        
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/6                                                                                  
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.16 migration/6 
